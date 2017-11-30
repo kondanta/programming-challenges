@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char const *argv[]){
 	if(argc < 2){
-		cout<<"Please give me a arg T_T";
+		cout<<"Please give me an arg T_T";
 		return -1;
 	}else if(argc > 2){
 		cout<<"Hurr Durr so many args O.o";
