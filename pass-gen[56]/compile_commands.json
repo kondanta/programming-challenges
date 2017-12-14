@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/kondanta/workEnvironment/projects/programming-challenges/pass-gen[56]/bin",
+  "command": "/usr/bin/c++   -I/home/kondanta/workEnvironment/projects/programming-challenges/pass-gen[56]/inc    -o CMakeFiles/passGen.dir/src/pass.cpp.o -c /home/kondanta/workEnvironment/projects/programming-challenges/pass-gen[56]/src/pass.cpp",
+  "file": "/home/kondanta/workEnvironment/projects/programming-challenges/pass-gen[56]/src/pass.cpp"
+},
+{
+  "directory": "/home/kondanta/workEnvironment/projects/programming-challenges/pass-gen[56]/bin",
+  "command": "/usr/bin/c++   -I/home/kondanta/workEnvironment/projects/programming-challenges/pass-gen[56]/inc    -o CMakeFiles/passGen.dir/src/main.cpp.o -c /home/kondanta/workEnvironment/projects/programming-challenges/pass-gen[56]/src/main.cpp",
+  "file": "/home/kondanta/workEnvironment/projects/programming-challenges/pass-gen[56]/src/main.cpp"
+}
+]
