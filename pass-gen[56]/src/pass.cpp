@@ -29,6 +29,8 @@ void PassGen::HelpMenu(std::string argument){
             <<"-s, --symbols\t for !@#$%..";
 }
 
+
+//FIXME: Add else for 0 0 case.``
 std::vector<char> CreateContainer(int dflag, int sflag){
     std::vector<char> passContainer;
      // 3 posibilities for flags~
@@ -54,12 +56,14 @@ std::vector<char> CreateContainer(int dflag, int sflag){
                 i = 60;
             passContainer.push_back(i);
         }
+    }else{
+        passContainer.push_back('E');
     }
     return passContainer;
 }
 
 
-void PassGen::GeneratePassword(int dflag=0, int sflag=0){
+void PassGen::GeneratePassword(int dflag, int sflag){
    // std::vector<std::string> passContainer;
     std::vector<char> passContainer = CreateContainer(dflag, sflag);
     //Randomizing the generation each time it called!

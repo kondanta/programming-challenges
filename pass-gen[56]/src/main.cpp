@@ -4,7 +4,7 @@
 int main(int argc, const char* argv[]) {
     PassGen obj;
 
-    if (argc == 1 || argc > 3) {
+    if (argc > 3) {
         obj.HelpMenu(argv[0]);
         return 1;
     }
